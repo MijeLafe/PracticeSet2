@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView textView = new TextView (this);
-        textView.setText("wow");
+        textView.setText("Hello");
         textView.setTextColor(getResources().getColor(android.R.color.black));
         textView.setTextSize(40);
         setContentView(textView);
